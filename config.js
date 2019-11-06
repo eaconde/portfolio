@@ -1,36 +1,48 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', // <title>
-  manifestName: 'Prologue',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Eric - Portfolio', // <title>
+  manifestName: 'Portfolio',
+  manifestShortName: 'Portfolio', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
-  authorName: 'Anubhav',
-  heading: 'Web Developer',
+  manifestIcon: 'src/assets/images/logo.png',
+  pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
+  authorName: 'Eric Conde',
+  headings: [
+    {
+      title: 'Technical Architect'
+    },
+    {
+      title: 'Web Developer'
+    },
+  ],
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/eaconde',
     },
     {
       icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      name: 'Linkedin',
+      url: 'https://twitter.com/condelights/',
+    },
+    {
+      icon: 'fa-linkedin',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/condeeric/',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/condelights',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:condeeric.dev@gmail.com',
     },
   ],
 };

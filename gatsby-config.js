@@ -21,5 +21,11 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "ec-portfolio",
+      },
+    },
   ],
 };

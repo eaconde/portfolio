@@ -4,20 +4,22 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
+import filtek from '../assets/images/projects/filtek.png';
+import thebellevue from '../assets/images/projects/thebellevue.png';
+import winandlizwedding from '../assets/images/projects/winandlizwedding.png';
+import reimbursement from '../assets/images/projects/reimbursement.png';
+import uhswebportal from '../assets/images/projects/uhswebportal.png';
+import uni from '../assets/images/projects/uni.png';
+import pgw from '../assets/images/projects/pgw.png';
+import molave from '../assets/images/projects/molave.png';
+import banner2 from '../assets/images/banner2.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
-  { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
+  { id: 'contact', name: 'Say Hello!', icon: 'fa-envelope' },
 ];
 
 const IndexPage = () => (
@@ -29,10 +31,12 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
-              <br />
-              Web developer
+              Hi! I'm <strong>Eric</strong>
             </h2>
+            <br />
+            <h3>
+              Technical Architect | Web Developer 
+            </h3>
             <p>I have made few things check it out.</p>
           </header>
 
@@ -53,64 +57,84 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            Some of the notable projects I did or had collaboration with other teams on.
+            Capacity is either a software developer or as a technical architect.
           </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic2} alt="" />
+                <a href="http://thebellevue.com/" className="image fit" 
+                  target="_blank" rel="noopener noreferrer">
+                  <img src={thebellevue} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>The Bellevue - Hotels & Resorts</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic3} alt="" />
+                <a href="#" className="image fit" 
+                  target="_blank" rel="noopener noreferrer">
+                  <img src={molave} alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
-                </header>
-              </article>
-            </div>
-            <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic4} alt="" />
-                </a>
-                <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>Globe - Sim Bulk Query</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
+                <a href="#" className="image fit" 
+                  target="_blank" rel="noopener noreferrer">
+                  <img src={reimbursement} alt="" />
                 </a>
                 <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>Stratpoint - Reimbursement System</h3>
                 </header>
               </article>
             </div>
+
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
+                  <img src={winandlizwedding} alt="" />
                 </a>
                 <header>
-                  <h3>Dolor Penatibus</h3>
+                  <h3>Win & Liz Wedding</h3>
                 </header>
               </article>
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
+                  <img src={uni} alt="" />
                 </a>
                 <header>
-                  <h3>Orci Convallis</h3>
+                  <h3>Globe - Pay2Globe</h3>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={filtek} alt="" />
+                </a>
+                <header>
+                  <h3>3M ESPE - Filtek: OneAndDone</h3>
+                </header>
+              </article>
+            </div>
+
+            <div className="col-4 col-12-mobile">
+            <article className="item">
+                <a href="#" className="image fit" 
+                  target="_blank" rel="noopener noreferrer">
+                  <img src={uhswebportal} alt="" />
+                </a>
+                <header>
+                  <h3>UHS - Web Portal</h3>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pgw} alt="" />
+                </a>
+                <header>
+                  <h3>Globe - Payment Service</h3>
                 </header>
               </article>
             </div>
@@ -125,17 +149,38 @@ const IndexPage = () => (
           </header>
 
           <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
+            <img src={banner2} alt="" />
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            I'm a Technical Architect currently specializing with 
+            <a 
+              href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-06&ci=AWS00591965"
+              target="_blank"
+              rel="noopener noreferrer"
+            > AWS cloud solutions</a>.
+            I have working experience with DevOps, Serverless technologies, Database management,
+            API Services, and end-to-end software development. My previous works and 
+            collaborations include various systems including but not limited to 
+            eCommerce, ERP, CRM, Inventory Management, Reimbursement Systems, 
+            Reservation and Booking, high traffic, real-time transaction processing
+            as well as high volume batch file processing.
+          </p>
+          <br />
+          <p>
+            A Rubyist by heart, I also previously worked on a project which involves in 
+            communicating with security system devices (IoTs i.e., cameras, alarms, sensors, etc)
+            and present its corresponding data via a management portal. The changes I
+            made to this system has yielded increased usability, visibility, and performance of the system. 
+            I have also reduced the number of bugs in their application by implementing 
+            end-to-end tests which greatly increased user satisfaction.
+          </p>
+          <br />
+          <p>
+            Personally and as a professional, I can (and often do) work alone with 
+            no supervision required. However, I find it more engaging and more rewarding 
+            to work and collaborate with a team that cares about the client and the 
+            product as much as I do learning from each other along the way.
           </p>
         </div>
       </section>
@@ -143,15 +188,13 @@ const IndexPage = () => (
       <section id="contact" className="four">
         <div className="container">
           <header>
-            <h2>Contact</h2>
+            <h2>Say Hello!</h2>
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            I'm currently available for freelance, collaboration, or full-time work. 
+            If you're interested in working with me, please get in touch by sending me
+            a message by filling up the form below. Or feel free to just say hi, I would like that too!
           </p>
 
           <form method="post" action="#">
@@ -174,7 +217,7 @@ const IndexPage = () => (
       </section>
     </div>
 
-    <PageFooter />
+    {/* <PageFooter /> */}
   </Layout>
 );
 

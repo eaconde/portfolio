@@ -19,7 +19,7 @@ export default function SideBar({ sections = [] }) {
           <Header
             avatar={pic}
             title={config.authorName}
-            heading={config.heading}
+            headings={config.headings}
           />
           <Nav sections={sections} />
         </div>
